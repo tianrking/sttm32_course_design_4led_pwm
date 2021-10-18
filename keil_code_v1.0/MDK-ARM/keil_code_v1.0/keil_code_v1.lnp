@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"keil_code_v1.0\startup_stm32f103x6.o"
+"keil_code_v1.0\main.o"
+"keil_code_v1.0\gpio.o"
+"keil_code_v1.0\adc.o"
+"keil_code_v1.0\tim.o"
+"keil_code_v1.0\stm32f1xx_it.o"
+"keil_code_v1.0\stm32f1xx_hal_msp.o"
+"keil_code_v1.0\stm32f1xx_hal_gpio_ex.o"
+"keil_code_v1.0\stm32f1xx_hal_adc.o"
+"keil_code_v1.0\stm32f1xx_hal_adc_ex.o"
+"keil_code_v1.0\stm32f1xx_hal.o"
+"keil_code_v1.0\stm32f1xx_hal_rcc.o"
+"keil_code_v1.0\stm32f1xx_hal_rcc_ex.o"
+"keil_code_v1.0\stm32f1xx_hal_gpio.o"
+"keil_code_v1.0\stm32f1xx_hal_dma.o"
+"keil_code_v1.0\stm32f1xx_hal_cortex.o"
+"keil_code_v1.0\stm32f1xx_hal_pwr.o"
+"keil_code_v1.0\stm32f1xx_hal_flash.o"
+"keil_code_v1.0\stm32f1xx_hal_flash_ex.o"
+"keil_code_v1.0\stm32f1xx_hal_exti.o"
+"keil_code_v1.0\stm32f1xx_hal_tim.o"
+"keil_code_v1.0\stm32f1xx_hal_tim_ex.o"
+"keil_code_v1.0\system_stm32f1xx.o"
+--strict --scatter "keil_code_v1.0\keil_code_v1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "keil_code_v1.map" -o keil_code_v1.0\keil_code_v1.0
